@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Marco Villanueva con galería de hobbies."
+    />
+    <title>Marco Villanueva | Mis Hobbies</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Hola, soy Marco Villanueva</h1>
+      <p class="subtitle">PROYECTO 1</p>
+    </header>
+
+    <main class="main-content">
+      <section class="profile-section" aria-label="Foto de perfil">
+        <figure class="profile-photo">
+          <img
+            src="assets/img/IMG_20250611_101900_945.jpg"
+            alt="Foto de Marco Villanueva"
+            loading="lazy"
+          />
+          <figcaption>Marco Villanueva - Desarrollador y aficionado</figcaption>
+        </figure>
+      </section>
+
+      <section class="carousel-section" aria-label="Galería de hobbies">
+        <h2 class="section-title">Mis Hobbies</h2>
+        <div class="carousel-container">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide">
+              <img src="assets/img/futbol.jpeg" alt="Ver partidos de fútbol" />
+              <p class="slide-caption">Ver partidos de fútbol</p>
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/img/peli.jpg" alt="Ver películas" />
+              <p class="slide-caption">Ver películas</p>
+            </div>
+            <div class="carousel-slide">
+              <img
+                src="assets/img/1fa5f4df-d65a-40eb-84e7-2058c7e2a1d5.jpg.png"
+                alt="Ir al gimnasio"
+              />
+              <p class="slide-caption">Ir al gimnasio</p>
+            </div>
+            <div class="carousel-slide">
+              <img
+                src="assets/img/wp9894898-spotify-logo-wallpapers.jpg"
+                alt="Escuchar música"
+              />
+              <p class="slide-caption">Escuchar música</p>
+            </div>
+          </div>
+
+          <div class="carousel-controls">
+            <button class="carousel-button" id="prevBtn" aria-label="Anterior">
+              &#10094;
+            </button>
+            <button class="carousel-button" id="nextBtn" aria-label="Siguiente">
+              &#10095;
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Marco Villanueva. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
